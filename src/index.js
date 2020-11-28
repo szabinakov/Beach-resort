@@ -10,9 +10,9 @@ import reportWebVitals from "./reportWebVitals";
 ReactDOM.render(
   <RoomProvider>
     <Router>
-      <React.StrictMode>
-        <App />
-      </React.StrictMode>
+      {/* <React.StrictMode> */}
+      <App />
+      {/* </React.StrictMode> */}
     </Router>
   </RoomProvider>,
   document.getElementById("root")
