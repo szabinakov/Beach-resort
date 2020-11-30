@@ -11,11 +11,11 @@ export default function RoomList({ rooms }) {
   }
   return (
     <section className="roomslist">
-      <dic className="roomslist-center">
+      <div className="roomslist-center">
         {rooms.map((item) => {
           return <Room key={item.id} room={item} />;
         })}
-      </dic>
+      </div>
     </section>
   );
 }
